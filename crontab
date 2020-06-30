@@ -1,0 +1,3 @@
+# Run this script everday at 1am to update Cloudflare IPs to keep them up to date.
+# Ensure script has chmod u+x permission.
+0 1 * * * /path/to/script/generate-cloudflare-conf.sh >/dev/null 2>&1
